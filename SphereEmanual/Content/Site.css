@@ -1,0 +1,168 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.contentWrapper {
+  background-color: #ffffff;
+  padding: 0;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+/*input,
+select,
+textarea {
+    max-width: 280px;
+}*/
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+
+.width-400{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.width-500{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.width-600{
+    width: 600px;
+    margin: 0 auto;
+}
+
+tr.group-header{
+    background-color:#337ab7;
+    cursor:pointer;
+    text-align:left;
+}
+
+tr.group-header-Draft{
+    background-color:#5bc0de;
+    cursor:pointer;
+    text-align:left;
+    color: #fff
+}
+
+tr.group-header-Submit{
+    background-color:#d9534f;
+    cursor:pointer;
+    text-align:left;
+    color: #fff
+}
+
+tr hr{
+    background-color:lightblue;
+    border-color:#eee;
+    color:lightblue;
+    margin:4px 20px;
+}
+
+.newline
+{
+	display:block;
+	clear:both;
+}
+
+.sameline-wrapper
+{
+	float:left;
+	display:inline;
+}
+
+.display-label, .editor-label
+{
+	margin: 1em 0 0 0;
+	display:block;
+	width:300px;
+}
+		
+.display-field, .editor-field
+{
+	margin: 0.5em 0 0 0;
+	display:block;
+	width:300px;
+}
+
+.indented
+{
+   padding-left: 30pt;
+   padding-right: 30pt;
+}
+
+/* CSS used here will be applied after bootstrap.css */
+
+
+.nav-pills a:hover {
+    color: #337ab7;
+    border-radius: 0px;
+}
+
+.nav-pills .active a:hover {
+    color: #337ab7;
+    border-radius: 0px;
+}
+.nav>li>a:hover, 
+.nav>li>a:focus {
+    color: #337ab7;
+    border-radius: 0px;
+}
+
+#toTop{
+	position: fixed;
+	bottom: 10px;
+	right: 40px;
+	cursor: pointer;
+	display: none;
+}
+
+#toTop .fa {
+    margin-right: 5px;
+}
+
+.centered-pills {  
+    text-align: center
+}
+.centered-pills ul.nav-pills {
+    display: inline-block
+}
+.centered-pills li {
+    display: inline
+}
+.centered-pills a {
+    float: left
+}
+* html .centered-pills ul.nav-pills, *+html .centered-pills ul.nav-pills {
+    display: inline
+}
